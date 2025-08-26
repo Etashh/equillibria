@@ -1,15 +1,16 @@
 
-# TypeScript
+# Equillibria - Carbon Footprint Tracker
 
-[![CI](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/TypeScript/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![Downloads](https://img.shields.io/npm/dm/typescript.svg)](https://www.npmjs.com/package/typescript)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/microsoft/TypeScript/badge)](https://securityscorecards.dev/viewer/?uri=github.com/microsoft/TypeScript)
+Equillibria is a modern, user-friendly mobile application designed to help individuals track, understand, and reduce their carbon footprint. Built with React Native and Expo, the app provides a comprehensive suite of tools for monitoring daily activities and their environmental impact.
 
+## Features
 
-[TypeScript](https://www.typescriptlang.org/) is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript. Try it out at the [playground](https://www.typescriptlang.org/play/), and stay up to date via [our blog](https://blogs.msdn.microsoft.com/typescript) and [Twitter account](https://twitter.com/typescript).
-
-Find others who are using TypeScript at [our community page](https://www.typescriptlang.org/community/).
+- **Activity Tracking**: Log transportation, food, household, and shopping activities to calculate your carbon footprint
+- **Visual Insights**: View your carbon impact through intuitive charts and graphs
+- **Personalized Recommendations**: Get AI-powered suggestions tailored to your lifestyle
+- **Community Engagement**: Connect with like-minded individuals, participate in challenges, and share achievements
+- **Achievement System**: Earn badges and track your progress toward a more sustainable lifestyle
+- **Monthly Carbon Goals**: Set personal targets and monitor your progress
 
 ## Installing
 
@@ -17,34 +18,40 @@ For the latest stable version:
 
 ```bash
 npm install -D typescript
-```
+## Tech Stack
 
-For our nightly builds:
+- **React Native**: Core framework for building the mobile application
+- **Expo**: Development environment for faster iteration
+- **TypeScript**: Type-safe coding for better reliability
+- **React Navigation**: Seamless navigation between screens
+- **React Native Elements**: UI component library for consistent design
+- **Chart Kit**: Visualization of carbon footprint data
+- **Axios**: API communication for future backend integration
 
-```bash
-npm install -D typescript@next
-```
+## Getting Started
 
-## Contribute
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Run the application with `npm start`
+4. Use Expo Go app on your mobile device or an emulator to view the app
 
-There are many ways to [contribute](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md) to TypeScript.
-* [Submit bugs](https://github.com/microsoft/TypeScript/issues) and help us verify fixes as they are checked in.
-* Review the [source code changes](https://github.com/microsoft/TypeScript/pulls).
-* Engage with other TypeScript users and developers on [StackOverflow](https://stackoverflow.com/questions/tagged/typescript).
-* Help each other in the [TypeScript Community Discord](https://discord.gg/typescript).
-* Join the [#typescript](https://twitter.com/search?q=%23TypeScript) discussion on Twitter.
-* [Contribute bug fixes](https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md).
+## Future Enhancements
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see
-the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
-with any additional questions or comments.
+- **Carbon API Integration**: Connect to reliable carbon footprint calculation APIs
+- **Social Login**: Allow users to sign in with their social media accounts
+- **Gamification**: Expand the achievement system with points and levels
+- **Community Challenges**: Implement group challenges with progress tracking
+- **Carbon Offsetting**: Integrate with carbon offset providers
+- **Data Export**: Allow users to export their carbon footprint data
 
-## Documentation
+## Contributing
 
-*  [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-*  [Programming handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-*  [Homepage](https://www.typescriptlang.org/)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Roadmap
+## License
 
-For details on our planned features and future direction, please refer to our [roadmap](https://github.com/microsoft/TypeScript/wiki/Roadmap).
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Equillibria - Balance your carbon footprint for a sustainable future.
